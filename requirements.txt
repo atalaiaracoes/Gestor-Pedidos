@@ -16,7 +16,6 @@ EbookLib==0.17.1
 extract-msg==0.23.1
 extras==1.0.0
 fixtures==3.0.0
-gdbus-codegen==2.60.6
 gemato==14.1
 gunicorn==20.0.4
 html5lib==1.0.1
