@@ -35,7 +35,6 @@ pbr==4.2.0
 pdfminer.six==20181108
 Pillow==6.0.0
 ply==3.9
-portage==2.3.79
 psycopg2==2.8.4
 pyblake2==1.1.2
 pycairo==1.17.0
