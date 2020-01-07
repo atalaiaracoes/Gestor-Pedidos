@@ -1,0 +1,28 @@
+{% extends "index.html" %}
+
+{% block content %}
+	<br><br><br><br>
+	<form>	
+		<div class="container row">
+			<div class="col-md-1 form-group order-md-1"></div>
+			<div class="col-md-5 form-group order-md-2">
+	    		<label for="arquivopedido">Escolha o arquivo PDF do pedido a ser importado</label>
+	    		<input type="file" class="form-control-file" name="arquivopedido">
+	  		</div>
+	  		<div class="col-md-3 form-group order-md-3">
+	  			<label for="selectfornecedor">Escolha o fornecedor do pedido</label>
+	  			<select class="form-control" name="selectfornecedor">
+	  				<option value="1">Piracanjuba</option>
+	  				<option value="2">Urbano</option>
+				</select>
+	  		</div>
+	  		<div class="col-md-2 form-group order-md-4"></div>
+	  		<div class="col-md-1 order-md-5">
+		       	<button class="btn btn-primary" type="submit">Importar pedido</button>
+		    </div>
+		</div>
+	</form>
+{% endblock %}
+
+
+
