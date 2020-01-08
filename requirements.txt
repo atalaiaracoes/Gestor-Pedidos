@@ -41,7 +41,6 @@ pycparser==2.14
 pycryptodome==3.9.4
 pycups==1.9.73
 Pygments==2.3.1
-PyGObject==3.32.1
 pymssql==2.1.4
 pyOpenSSL==19.0.0
 pyparsing==2.3.1
