@@ -18,9 +18,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'z_z!d-rui(_8&)q(vw9nedj$ileq0$4&h8+0l#2(e6jc$g80&4'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -70,40 +67,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'base.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'pedidos.sqlite3'),
-#    }
-#}
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'de42opvu4pshvp',
-        'USER': 'mxonlaquicwhyk',
-        'PASSWORD': 'e6605ac1accc1ea364386e5954c3fcfcf02d94a34527b516741dd1bdc3d78564',
-        'HOST': 'ec2-54-221-243-211.compute-1.amazonaws.com',
-        'PORT': '5432',
-    }
-}
-
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'ezgnjhgz',
-#        'USER': 'ezgnjhgz',
-#        'PASSWORD': 'r4UhYemVLWIZfTmBUDnEYy_yupDYmvzi',
-#        'HOST': 'tuffi.db.elephantsql.com',
-#        'PORT': '5432',
-#    }
-#}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
