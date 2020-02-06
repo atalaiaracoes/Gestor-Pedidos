@@ -2,12 +2,12 @@
 
 {% block content %}
 	<br><br><br><br>
-	<form>	
-		<div class="container row" method="POST">
+	<form action="submit" method="POST">	
+		<div class="container row">
 			<div class="col-md-1 form-group order-md-1"></div>
 			<div class="col-md-5 form-group order-md-2">
 	    		<label for="arquivopedido">Escolha o arquivo PDF do pedido a ser importado</label>
-	    		<input type="file" class="form-control-file" name="arquivopedido">
+	    		<input type="file" class="form-control-file" name="file">
 	  		</div>
 	  		<div class="col-md-3 form-group order-md-3">
 	  			<label for="selectfornecedor">Escolha o fornecedor do pedido</label>

@@ -35,6 +35,7 @@ def index(request):
 
 @login_required(login_url='/')
 def gestorImportarPedido(request):
+	request.FILES.get('file')
 	return render(request, 'pedidos/import_order.html')
 
 @login_required(login_url='/')
